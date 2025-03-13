@@ -1,5 +1,9 @@
 body {
-    background-image: url('stone-bg.jpg'); /* Каменный фон */
+    /* Используй свою сгенерированную текстуру камня */
+    background-image: url('stone-bg.jpg');
+    background-size: 300px; /* Можно подгонять размер для лучшего вида */
+    background-repeat: repeat;
+
     color: #fff;
     font-family: 'Papyrus', sans-serif; /* Древний стиль */
     text-align: center;
