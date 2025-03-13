@@ -1,0 +1,77 @@
+body {
+    background-image: url('stone-bg.jpg'); /* Каменный фон */
+    color: #fff;
+    font-family: 'Papyrus', sans-serif; /* Древний стиль */
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 3px 3px 0px #000;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.mascot img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #a52a2a;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.btn:hover {
+    background: #ff0000;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    text-shadow: 2px 2px 0px #000;
+}
+
+.roadmap {
+    list-style: none;
+    padding: 0;
+}
+
+.roadmap li {
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.warning {
+    font-size: 20px;
+    color: #ffcc00;
+    font-weight: bold;
+    margin-top: 20px;
+}
